@@ -24,8 +24,6 @@
 </template>
 
 <style lang="scss" scoped>
-@import '~assets/scss/variables';
-
 .about,
 .works {
   h2 {
