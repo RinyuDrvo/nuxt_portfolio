@@ -1,13 +1,13 @@
 <template>
   <div class="page-about">
     <section class="about">
-      <h2>初めまして</h2>
+      <h2 class="section-title">初めまして</h2>
       <ArticleBody>
         <p>夏目漱石夏目漱石夏目漱石夏目漱石夏目漱石夏目漱石夏目漱石夏目漱石</p>
       </ArticleBody>
     </section>
     <section class="history">
-      <h2>経歴</h2>
+      <h2 class="section-title">経歴</h2>
       <ArticleBody>
         <h3>幼少期</h3>
         <p>どこに生まれてどこで育った</p>
@@ -27,24 +27,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-.about,
-.history {
-  h2 {
-    display: flex;
-    align-items: center;
-    margin: 50px 0 30px;
-    font-size: 30px;
-
-    &::after {
-      content: '';
-      display: block;
-      flex: 1;
-      height: 1px;
-      margin-left: 10px;
-      background-color: $color-black;
-    }
-  }
-}
-</style>
